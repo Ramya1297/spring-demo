@@ -12,4 +12,8 @@ public class Controller {
     public String Sample() {
         return "Hello world!";
     }
+    @GetMapping("/test")
+    public String test() {
+        return "Hello test!";
+    }
 }
